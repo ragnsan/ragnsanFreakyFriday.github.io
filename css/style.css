@@ -1,0 +1,1082 @@
+* {
+    padding: 0;
+    margin: 0;
+    /*border: solid;*/
+    text-align: center;
+       
+}
+
+
+
+header {
+    height: 10vh;
+    background-color: #957FEF;
+}
+
+h1, h2, h3 {
+    font-family: 'Archivo Black', sans-serif;
+
+}
+
+
+h2 {
+    color: #EFD9CE;
+    padding: 2rem 0 0;
+}
+
+p {
+    font-family: 'Judson', serif;
+}
+
+
+/* navbar styling */
+.navbar ul li ul{
+}
+
+ul {}
+
+li {
+    font-size: 3rem;
+    text-align: center;
+    padding: 3rem 0 0;
+    color: white;
+    display: inline-block;
+    padding: 2.75rem 1.5rem 0;
+    font-family: 'Judson', serif;
+    
+}
+
+
+ul li a {
+    text-decoration: none;
+    text-align: center;
+    position: absolute;
+}
+
+ul li:hover {
+    color: #EFD9CE;
+}
+
+
+
+ul li:hover ul {
+    display: block;
+}
+
+
+
+
+/* hero display styling */
+
+
+#hero-display-container {
+    overflow: auto;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../images/thailand-street-pic.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+    background-position-y: center;
+    position: relative;
+
+
+}
+
+.hero-text-container {
+    width: 50%;
+    height: 50%;
+    text-align: center;
+    margin: 5rem 0 0;
+    color: white;
+    ;
+}
+
+.hero-text-container h1, h2 {
+    text-align: center;
+    
+    
+}
+
+.hero-text-container h1 {
+    font-size: 10rem;
+
+}
+
+.hero-text-container h2 {
+    font-size: 5rem;
+    padding: 0 0 5rem;
+}
+
+
+
+
+
+/* about us styling*/
+
+
+
+#about-us-container {
+    background-color: #DEC0F1;
+    color: #957FEF;
+    padding: 3rem 0 5rem;
+    overflow: hidden;
+
+    max-height: 800px;
+}
+
+.about-us-container-heading {
+    height: 20%;
+    text-align: center;
+    
+    font-size: 3.5rem;
+    
+
+}
+
+.about-us-container-heading h2 {
+    padding: 3.75rem 0 0;
+    color: #957FEF;
+    
+}
+
+
+
+.about-us-container-reasons {
+    height: 80%;
+}
+
+.about-us-container-reasons img {
+    padding: 5rem 0 0;
+}
+
+.about-us-container-reasons h2 {
+    font-size: 5rem;
+    color: #957FEF;
+
+}
+
+
+.about-us-container-reasons h3 {
+    font-size: 2rem;
+    padding: 2rem 6rem 0rem;
+    color: black;
+    line-height: 3rem;
+    font-family: 'Judson', serif;
+
+
+}
+
+.container-reasons__1 {
+    width: 33%;
+    height: 100%;
+    float: left;
+
+}
+
+
+.container-reasons__2 {
+    width: 33%;
+    height: 100%;
+    float: left;
+
+
+
+}
+
+
+.container-reasons__3 {
+    width: 33%;
+    height: 100%;
+    float: right;
+}
+
+
+
+
+
+
+
+
+/* the team styling */
+
+
+#the-team-container {
+    padding: 0 0 7rem;
+    background-color: #957FEF;
+    overflow: auto;
+
+
+}
+
+h2 {
+    color: #EFD9CE;
+}
+
+.the-team-container-heading {
+    text-align: center;
+    color: white;
+    
+    font-size: 5rem;
+    
+
+}
+
+.the-team-container-employees {
+
+}
+
+
+.the-team-container-heading h2 {
+    padding: 2.5rem 0 0;
+    color: white;
+}
+
+
+.container-employees__founder {
+    width: 33%;
+    float: left;
+    height: 100%;
+
+
+}
+
+.founder__image {
+    height: 50%;
+    margin: auto;
+    height: auto;
+    padding: 3rem 0 0;
+}
+
+.founder__text {
+    height: 50%;
+    
+}
+
+.founder__text h2 {
+        font-size: 5rem;
+}
+
+.founder__text h3 {
+    font-family: 'Judson', serif;
+    font-size: 2rem;
+    padding: 2rem 5rem 0;
+    line-height: 3rem;
+
+}
+
+
+.container-employees__head-chef {
+    width: 33%;
+    height: 100%;
+    float: left;
+    
+
+}
+
+.head-chef__image {
+    height: 50%;
+    margin: auto;
+    height: auto;
+    padding: 3rem 0 0;
+}
+
+.head-chef__text {
+    height: 50%;
+    
+}
+
+.head-chef__text h2 {
+    font-size: 5rem;
+}
+
+
+.head-chef__text h3 {
+    font-family: 'Judson', serif;
+    font-size: 2rem;
+    padding: 2rem 5rem 0;
+    line-height: 3rem;
+
+}
+
+.container-employees__manager {
+    width: 33%;
+    height: 100%;
+    float: left;
+
+}
+
+.manager__image {
+    height: 50%;
+    margin: auto;
+    height: auto;
+    padding: 3rem 0 0;
+
+}
+
+.manager__text {
+    height: 50%;
+    
+}
+
+.manager__text h2 {
+    font-size: 5rem;
+}
+
+
+.manager__text h3 {
+    font-family: 'Judson', serif;
+    font-size: 2rem;
+    padding: 2rem 5rem 0;
+    line-height: 3rem;
+
+}
+
+
+
+
+/* menu styling */
+
+
+#menu-container {;
+    display: block;
+    text-align: center;
+    margin: auto;
+
+}
+
+#menu-container h2 {
+color: #957FEF;
+}
+
+.menu-container-heading {
+
+}
+
+.menu-container-heading h2 {
+    font-size: 6rem;
+    padding: 3.75rem 0 0;
+    text-align: center;
+}
+
+.menu-container-heading h3 {
+    font-size: 2rem;
+    padding: 0 0 5rem;
+}
+
+.menu-container-heading h4 {
+    padding: 0 0 0 3rem;
+
+}
+
+.menu-container-menu-items {
+    height: 80%;
+    background-color: #efd9ce;
+    
+
+}
+
+.menu-container-menu-items img {
+    padding: 3rem 0 0rem;
+}
+
+.menu-container-menu-items h2 {
+    font-size: 3.5rem;
+    padding: 3rem 0 0;
+}
+
+.menu-container-menu-items h3 {
+    font-size: 1.5rem;
+    padding: 2rem 2rem 0;
+}
+
+.menu-container-menu-items h4 {
+    font-size: 4rem;
+    line-height: 2.5rem;
+    padding: 2rem 2rem 0;
+}
+
+
+.menu-container-menu-items img {
+    height: 100%;
+    display: block;
+    margin: auto;
+}
+
+.menu-items__top-left {
+    height: 50%;
+    width: 50%;
+    float: left;
+    background-color:;
+}
+
+.top-left__image {
+    width: 50%;
+    height: 100%;
+    float: left;
+
+}
+
+.top-left__image img {
+    height: 100%;
+    display: block;
+    margin: auto;
+}
+
+.top-left__text {
+    width: 50%;
+    height: 100%;
+    float: left;
+    background-color:;
+}
+
+
+
+.menu-items__bottom-left {
+    height: 50%;
+    width: 50%;
+    float: left;
+
+}
+
+.bottom-left__image {
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+.bottom-left__text {
+    width: 50%;
+    height: 100%;    
+    float: left;
+    background-color:;
+    
+}
+
+
+
+
+.menu-items__top-right {
+    height: 50%;
+    width: 50%;
+    float: left;
+
+}
+
+.top-right__image {
+    width: 50%;
+    height: 100%; 
+    float: left;   
+}
+
+.top-right__text {
+    width: 50%;
+    height: 100%;   
+    float: left;
+    background-color:; 
+}
+
+
+
+.menu-items__bottom-right {
+    height: 50%;
+    width: 50%;
+    float: left;
+
+}
+
+.bottom-right__image{
+    width: 50%;
+    height: 50%;
+    float: left;
+
+    
+}
+
+.bottom-right__text {
+    width: 50%;
+    height: 100%;
+    float: right;
+}
+
+
+
+@media screen and (max-width: 1920px) {
+    .navbar li {
+        padding: 2rem;
+        font-size: 2.5rem;
+    }
+    
+    
+    #hero-display-container {
+        height: 80vh;
+        overflow: auto;
+    }
+
+    .about-us-container-heading h2 {
+        font-size: 4rem;
+    }
+
+    .about-us-container-reasons h2 {
+        font-size: 3rem;
+    }
+    .about-us-container-reasons h3 {
+        font-size: 2rem;
+    }
+
+    .the-team-container-heading h2 {
+        font-size: 5rem;
+        padding: 2rem 0 2rem;
+    }
+
+    .the-team-container-employees h2 {
+        font-size: 3rem;
+        padding: 2rem 6rem 0;
+    }
+
+    .the-team-container-employees h3 {
+        font-size: 2rem;
+        padding: 2rem 5rem 0;
+    }
+
+    .menu-container-heading h2 {
+        font-size: 5rem;
+    }
+    
+    .menu-container-heading h3 {
+        padding: 2rem 25rem 2rem;
+    }
+
+    .menu-container-menu-items h2 {
+        font-size: 2.5rem;
+    }
+
+    .menu-container-menu-items h3, h4 {
+        font-size: 1.25rem;
+    }
+}
+
+
+@media screen and (max-width: 1610px) {
+
+  .navbar li {
+        padding: 2.25rem;
+        font-size: 2rem;
+    }
+    
+ #hero-display-container {
+        height: 70vh;
+        overflow: auto;
+    }
+
+    .hero-text-container {
+        text-align: center;
+    }
+
+    .hero-text-container h1 {
+        font-size: 6rem;
+    }
+
+    .hero-text-container h2 {
+        font-size: 4rem;
+    }
+
+   .about-us-container-heading h2 {
+        font-size: 4rem;
+    }
+
+    .about-us-container-reasons h2 {
+        font-size: 2.5rem;
+    }
+    .about-us-container-reasons h3 {
+        font-size: 2rem;
+    }
+
+    .the-team-container-heading h2 {
+        font-size: 5rem;
+        padding: 2rem 0 2rem;
+    }
+
+    .the-team-container-employees h2 {
+        font-size: 3rem;
+        padding: 2rem 4rem 0;
+    }
+
+    .the-team-container-employees h3 {
+        font-size: 1.75rem;
+        padding: 2rem 3rem 0;
+    }
+
+    .menu-container-heading h2 {
+        font-size: 5rem;
+    }
+    
+    .menu-container-heading h3 {
+        padding: 2rem 30rem 2rem;
+    }
+
+    .menu-container-menu-items h2 {
+        font-size: 2.25rem;
+    }
+
+    .menu-container-menu-items h3, h4 {
+        font-size: 1rem;
+        padding: 2rem 1rem 2rem;
+    }
+
+    .menu-container-menu-items img {
+        max-width: 300px;
+        max-height: 300px;
+    }
+
+
+}
+
+
+@media screen and (max-width: 1540px) {
+.about-us-container-reasons h2 {
+        font-size: 2.5rem;
+    }
+    .about-us-container-reasons h3 {
+        padding: 2rem 1rem 2rem;
+    }
+
+}
+
+
+@media screen and (max-width: 1476px) {
+
+      .navbar li {
+        padding: 2.25rem;
+        font-size: 1.75rem;
+    }
+
+    #hero-display-container {
+        height: 60vh;
+        overflow: auto;
+    }
+
+
+    .about-us-container-heading h2 {
+        font-size: 4rem;
+    }
+
+    .about-us-container-reasons h2 {
+        font-size: 2.25rem;
+    }
+    .about-us-container-reasons h3 {
+        font-size: 1.5rem;
+        padding: 2rem 2rem 2rem;
+    }
+  
+  
+  
+  
+    .the-team-container-heading h2 {
+        font-size: 4rem;
+        padding: 2rem 0 0rem;
+    }
+
+    .the-team-container-employees h2 {
+        font-size: 1.75rem;
+        padding: 2rem 3.75rem 0;
+    }
+
+    .the-team-container-employees h3 {
+        font-size: 1.25rem;
+        padding: 2rem 3rem 0;
+    }
+
+    .the-team-container-employees img {
+        max-width: 300px;
+        max-height: 300px;
+    }
+
+    .menu-container-heading h2 {
+        font-size: 5rem;
+    }
+    
+    .menu-container-heading h3 {
+        padding: 2rem 15rem 2rem;
+    }
+
+    .menu-container-menu-items h2 {
+        font-size: 2rem;
+    }
+
+    .menu-container-menu-items h3, h4 {
+        font-size: 1rem;
+        padding: 2rem 1rem 0;
+    }
+
+    .menu-container-menu-items img {
+        max-width: 275px;
+        max-height: 275px;
+    }
+
+}
+
+@media screen and (max-width: 1310px) {
+
+
+    .menu-container-menu-items h2 {
+        font-size: 1.5rem;
+        padding: 1rem 0 0;
+    }
+
+    .menu-container-menu-items h3 {
+        font-size: 0.9rem;
+        padding: 1rem 1rem 0;
+    }
+
+    .menu-container-menu-items h4 {
+        font-size: 2rem;
+        padding: 1rem 0 0;
+    }
+
+     .menu-container-menu-items img {
+        max-width: 200px;
+        max-height: 200px;
+    }
+
+
+
+
+}
+
+
+
+
+
+@media screen and (max-width: 1210px) {
+
+
+
+
+    .about-us-container-heading h2 {
+        font-size: 3.5rem;
+        padding: 1rem;
+    }
+
+    .about-us-container-reasons h2 {
+        font-size: 2rem;
+    }
+    .about-us-container-reasons h3 {
+        font-size: 1.5rem;
+        padding: 2rem 2rem 2rem;
+    }
+
+    .the-team-container-employees h3 {
+        font-size: 1.25rem;
+        padding: 2rem 2rem 0;
+    }
+
+
+    .menu-container-heading h2 {
+        font-size: 4rem;
+        padding: 1rem 2rem 1rem;
+    }
+    
+    .menu-container-heading h3 {
+        padding: 1rem 10rem 1rem;
+    }
+
+    .menu-container-menu-items h2 {
+        font-size: 1.5rem;
+        padding: 1rem 0 0;
+    }
+
+    .menu-container-menu-items h3 {
+        font-size: 1rem;
+        padding: 1rem 1.5rem 0;
+    }
+
+    .menu-container-menu-items h4 {
+        font-size: 2rem;
+        padding: 1rem 0 0;
+    }
+
+     .menu-container-menu-items img {
+        max-width: 225px;
+        max-height: 225px;
+    }
+
+}
+
+
+@media screen and (max-width: 984px) {
+
+      .navbar li {
+        padding: 3rem 0.75rem 0;
+        font-size: 1.25rem;
+    }
+
+    #hero-display-container {
+        height: 50vh;
+        overflow: auto;
+    }
+
+    .hero-text-container h1 {
+        font-size: 5.5rem;
+    }
+
+    .hero-text-container h2 {
+        font-size: 3rem;
+    }
+
+
+    .about-us-container-heading h2 {
+        font-size: 3.5rem;
+        padding: 1rem 10rem 0;
+    }
+
+    .about-us-container-reasons h2 {
+        font-size: 1.5rem;
+        padding: 0;
+    }
+
+ 
+
+    .about-us-container-reasons h3 {
+        font-size: 1.25em;
+        padding: 2rem 1.5rem 2rem;
+        line-height: 1.25rem;
+    }
+
+    .the-team-container-employees h3 {
+        font-size: 1.25rem;
+        padding: 2rem 2rem 0;
+    }
+
+    .the-team-container-heading h2 {
+        font-size: 3.5rem;
+        padding: 2rem 0 0rem;
+    }
+
+    .the-team-container-employees h2 {
+        font-size: 1.5rem;
+        padding: 2rem 1rem 0;
+    }
+
+    .the-team-container-employees h3 {
+        font-size: 1rem;
+        padding: 2rem 1.5rem 0;
+        line-height: 1.5rem;
+    }
+
+    .the-team-container-employees img {
+        max-width: 250px;
+        max-height: 250px;
+    }
+
+
+    .menu-container-heading h2 {
+        font-size: 3.5rem;
+        padding: 1rem 2rem 1rem;
+    }
+    
+    .menu-container-heading h3 {
+        padding: 0 5rem 2rem;
+        font-size: 1.5rem;
+    }
+
+    .menu-container-menu-items h2 {
+        font-size: 1.25rem;
+        padding: 1rem 0 0;
+    }
+
+    .menu-container-menu-items h3 {
+        font-size: 0.75rem;
+        padding: 1rem 1rem 0;
+    }
+
+    .menu-container-menu-items h4 {
+        font-size: 2rem;
+        padding: 1rem 0 0;
+    }
+
+     .menu-container-menu-items img {
+        max-width: 225px;
+        max-height: 225px;
+    }
+
+}
+
+
+@media screen and (max-width: 773px) {
+
+
+    #hero-display-container {
+        height: 40vh;
+        overflow: auto;
+    }
+
+    .hero-text-container h1 {
+        font-size: 4rem;
+
+    }
+
+    .hero-text-container h2 {
+        font-size: 2.5rem;
+    }
+
+
+
+
+    .about-us-container-heading h2 {
+        font-size: 2.5rem;
+        padding: 1rem 1rem 0;
+    }
+
+    .about-us-container-reasons h2 {
+        font-size: 1.5rem;
+        padding: 0.25rem 2rem 0;
+    }
+
+    .about-us-container-reasons h3 {
+        font-size: 1.25em;
+        padding: 2rem 1.5rem 2rem;
+        line-height: 1.25rem;
+    }
+
+    .the-team-container-employees img {
+        max-width: 200px;
+        max-height: 200px;
+    }
+
+
+    .menu-container-heading h2 {
+        font-size: 2.5rem;
+        padding: 1rem 2rem 0;
+    }
+    
+    .menu-container-heading h3 {
+        padding: 0 5rem 2rem;
+        font-size: 1.25rem;
+    }
+
+    .menu-container-menu-items h2 {
+        font-size: 1rem;
+        padding: 1rem 0 0;
+    }
+
+    .menu-container-menu-items h3 {
+        font-size: 0.5rem;
+        padding: 1rem 1rem 0;
+    }
+
+    .menu-container-menu-items h4 {
+        font-size: 1rem;
+        padding: 0.25rem 0 0;
+    }
+
+     .menu-container-menu-items img {
+        max-width: 175px;
+        max-height: 175px;
+        padding: 0 0 1rem;
+    }
+
+
+
+
+
+}
+
+
+@media screen and (max-width: 660px) {
+
+    #hero-display-container {
+    overflow: hidden;
+
+    }
+    .hero-text-container {
+            
+    }
+
+   .hero-text-container h1 {
+        font-size: 4rem;
+        padding: 0 2rem 0;
+        
+    }
+
+    .hero-text-container h2 {
+        font-size: 2.5rem;
+        padding: 0 2rem 2rem;
+        
+
+
+    }
+
+
+    .about-us-container-heading h2 {
+        font-size: 2.5rem;
+        padding: 1rem 5rem 0;
+    }
+
+    .about-us-container-reasons h2 {
+        font-size: 1.5rem;
+        padding: 0.25rem 2rem 0;
+    }
+
+    .about-us-container-reasons h3 {
+        font-size: 1em;
+        padding: 1rem 1rem 2rem;
+        line-height: 1.25rem;
+    }
+
+
+    .about-us-container-reasons img {
+        padding: 1rem 0 0;
+    }
+
+  .the-team-container-employees img {
+        max-width: 150px;
+        max-height: 150px;
+    }
+
+
+    .the-team-container-heading h2 {
+        font-size: 3rem;
+        padding: 2rem 0 0rem;
+    }
+
+    .the-team-container-employees h2 {
+        font-size: 1.25rem;
+        padding: 2rem 1rem 0;
+    }
+
+    .the-team-container-employees h3 {
+        font-size: 0.75rem;
+        padding: 1rem 1rem 0;
+        line-height: 1rem;
+    }
+
+    .menu-container-heading h2 {
+        font-size: 2rem;
+        padding: 1rem 2rem 0;
+    }
+    
+    .menu-container-heading h3 {
+        padding: 0 5rem 2rem;
+        font-size: 1rem;
+    }
+
+    .menu-container-menu-items h2 {
+        font-size: 0.75rem;
+        padding: 1rem 0 0;
+    }
+
+    .menu-container-menu-items h3 {
+        font-size: 0.5rem;
+        padding: 1rem 0.5rem 0;
+    }
+
+    .menu-container-menu-items h4 {
+        font-size: 1rem;
+        padding: 0.25rem 0 0;
+    }
+
+     .menu-container-menu-items img {
+        max-width: 110px;
+        max-height: 110px;
+        padding: 1rem 0 0;
+    }
+
+}
