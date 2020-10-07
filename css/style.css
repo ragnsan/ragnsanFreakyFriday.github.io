@@ -30,38 +30,53 @@ p {
 
 
 /* navbar styling */
-.navbar ul li ul{
+
+
+.menu-button {
+    background-color: transparent;
+    border: none;
+    padding: 1rem 2rem 0rem;
+    cursor: pointer;
+    
+    color: white;
+    font-size: 2rem;
 }
 
-ul {}
+.dropdown-menu {
+    display: none;
+    position: aboslute;
+    
 
-li {
-    font-size: 3rem;
-    text-align: center;
-    padding: 3rem 0 0;
+}
+
+.dropdown-menu a:hover {
+    font-size: 2rem;
+    
+    display: block;
+
+}
+
+.navbar a {
+    text-decoration: none;
     color: white;
-    display: inline-block;
-    padding: 2.75rem 1.5rem 0;
-    font-family: 'Judson', serif;
+    
+    font-size: 2rem;
+    padding: 0rem 1rem 0rem;
+}
+
+
+.navbar:hover .dropdown-menu {
+    display: block;
+    text-align: center;
+
+
     
 }
 
 
-ul li a {
-    text-decoration: none;
-    text-align: center;
-    position: absolute;
-}
-
-ul li:hover {
-    color: #EFD9CE;
-}
 
 
 
-ul li:hover ul {
-    display: block;
-}
 
 
 
@@ -71,11 +86,13 @@ ul li:hover ul {
 
 #hero-display-container {
     overflow: auto;
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../images/thailand-street-pic.jpg);
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../images/thai-restaurant.jpg);
     background-size: cover;
+    height: 80vh;
     background-blend-mode: darken;
     background-position-y: center;
     position: relative;
+    z-index: auto;
 
 
 }
@@ -576,6 +593,7 @@ color: #957FEF;
 
     .hero-text-container h2 {
         font-size: 4rem;
+        padding: 0 2rem 0;
     }
 
    .about-us-container-heading h2 {
