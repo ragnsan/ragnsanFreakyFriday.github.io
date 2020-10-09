@@ -32,47 +32,20 @@ p {
 /* navbar styling */
 
 
-.menu-button {
-    background-color: transparent;
-    border: none;
-    padding: 1rem 2rem 0rem;
-    cursor: pointer;
-    
-    color: white;
-    font-size: 2rem;
-}
-
-.dropdown-menu {
-    display: none;
-    position: aboslute;
-    
-
-}
-
-.dropdown-menu a:hover {
-    font-size: 2rem;
-    
-    display: block;
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 
 .navbar a {
     text-decoration: none;
     color: white;
-    
-    font-size: 2rem;
-    padding: 0rem 1rem 0rem;
-}
-
-
-.navbar:hover .dropdown-menu {
-    display: block;
-    text-align: center;
-
-
+    font-size: 2.5rem;
+    padding: 1.5rem;
     
 }
-
 
 
 
@@ -85,7 +58,7 @@ p {
 
 
 #hero-display-container {
-    overflow: auto;
+    overflow: hidden;
     background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../images/thai-restaurant.jpg);
     background-size: cover;
     height: 80vh;
@@ -133,9 +106,9 @@ p {
 #about-us-container {
     background-color: #DEC0F1;
     color: #957FEF;
+    margin: 5rem 0 0;
     padding: 3rem 0 5rem;
-    overflow: hidden;
-
+    display: inline-block;
     max-height: 800px;
 }
 
@@ -396,18 +369,21 @@ color: #957FEF;
 
 .menu-container-menu-items h2 {
     font-size: 3.5rem;
-    padding: 3rem 0 0;
+    padding: 3rem 0rem 0rem;
+    text-align: left;
 }
 
 .menu-container-menu-items h3 {
     font-size: 1.5rem;
-    padding: 2rem 2rem 0;
+    padding: 2rem 2rem 1rem 0;
+    text-align: left;
 }
 
 .menu-container-menu-items h4 {
     font-size: 4rem;
     line-height: 2.5rem;
-    padding: 2rem 2rem 0;
+    padding: 2rem 1rem 0;
+    text-align: left;
 }
 
 
@@ -524,7 +500,6 @@ color: #957FEF;
     
     #hero-display-container {
         height: 80vh;
-        overflow: auto;
     }
 
     .about-us-container-heading h2 {
@@ -580,7 +555,6 @@ color: #957FEF;
     
  #hero-display-container {
         height: 70vh;
-        overflow: auto;
     }
 
     .hero-text-container {
@@ -668,7 +642,6 @@ color: #957FEF;
 
     #hero-display-container {
         height: 60vh;
-        overflow: auto;
     }
 
 
@@ -741,7 +714,7 @@ color: #957FEF;
 
     .menu-container-menu-items h3 {
         font-size: 0.9rem;
-        padding: 1rem 1rem 0;
+        padding: 1rem 1rem 0 0;
     }
 
     .menu-container-menu-items h4 {
@@ -754,7 +727,13 @@ color: #957FEF;
         max-height: 200px;
     }
 
-
+    .navbar a {
+    text-decoration: none;
+    color: white;
+    font-size: 2rem;
+    padding: 2rem 1rem 1rem;
+    
+}
 
 
 }
@@ -826,9 +805,16 @@ color: #957FEF;
         font-size: 1.25rem;
     }
 
+.navbar a {
+    text-decoration: none;
+    color: white;
+    font-size: 2rem;
+    padding: 2.125rem 1rem 0;
+    
+}
+
     #hero-display-container {
         height: 50vh;
-        overflow: auto;
     }
 
     .hero-text-container h1 {
@@ -902,7 +888,7 @@ color: #957FEF;
 
     .menu-container-menu-items h3 {
         font-size: 0.75rem;
-        padding: 1rem 1rem 0;
+        padding: 1rem 1rem 0 0;
     }
 
     .menu-container-menu-items h4 {
@@ -923,7 +909,7 @@ color: #957FEF;
 
     #hero-display-container {
         height: 40vh;
-        overflow: auto;
+
     }
 
     .hero-text-container h1 {
@@ -935,22 +921,28 @@ color: #957FEF;
         font-size: 2.5rem;
     }
 
-
+    .navbar a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    padding: 2.5rem 1rem 0;
+    
+}
 
 
     .about-us-container-heading h2 {
         font-size: 2.5rem;
-        padding: 1rem 1rem 0;
+        padding: 0rem 1rem 0;
     }
 
     .about-us-container-reasons h2 {
         font-size: 1.5rem;
-        padding: 0.25rem 2rem 0;
+        padding: 0rem 2rem 0;
     }
 
     .about-us-container-reasons h3 {
         font-size: 1.25em;
-        padding: 2rem 1.5rem 2rem;
+        padding: 1rem 1.5rem 2rem;
         line-height: 1.25rem;
     }
 
@@ -977,7 +969,7 @@ color: #957FEF;
 
     .menu-container-menu-items h3 {
         font-size: 0.5rem;
-        padding: 1rem 1rem 0;
+        padding: 1rem 1rem 0 0;
     }
 
     .menu-container-menu-items h4 {
@@ -986,9 +978,9 @@ color: #957FEF;
     }
 
      .menu-container-menu-items img {
-        max-width: 175px;
-        max-height: 175px;
-        padding: 0 0 1rem;
+        max-width: 135px;
+        max-height: 135px;
+        padding: 2rem 0 1rem;
     }
 
 
@@ -1001,7 +993,6 @@ color: #957FEF;
 @media screen and (max-width: 660px) {
 
     #hero-display-container {
-    overflow: hidden;
 
     }
     .hero-text-container {
